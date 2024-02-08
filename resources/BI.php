@@ -1,4 +1,4 @@
-<?php return Sunaoka\AddressData\Address::__set_state(array(
+<?php return \Sunaoka\AddressData\Address::__set_state(array(
    'id' => 'data/BI',
    'key' => 'BI',
    'name' => 'BURUNDI',

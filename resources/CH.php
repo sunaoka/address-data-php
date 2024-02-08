@@ -1,4 +1,4 @@
-<?php return Sunaoka\AddressData\Address::__set_state(array(
+<?php return \Sunaoka\AddressData\Address::__set_state(array(
    'id' => 'data/CH',
    'key' => 'CH',
    'name' => 'SWITZERLAND',
@@ -16,7 +16,6 @@
   ),
    'upper' => 
   array (
-    0 => '',
   ),
    'zip' => '\\d{4}',
    'zipex' => 

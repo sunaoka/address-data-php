@@ -1,4 +1,4 @@
-<?php return Sunaoka\AddressData\Address::__set_state(array(
+<?php return \Sunaoka\AddressData\Address::__set_state(array(
    'id' => 'data/KN',
    'key' => 'KN',
    'name' => 'SAINT KITTS AND NEVIS',

@@ -1,4 +1,4 @@
-<?php return Sunaoka\AddressData\Address::__set_state(array(
+<?php return \Sunaoka\AddressData\Address::__set_state(array(
    'id' => 'data/FK',
    'key' => 'FK',
    'name' => 'FALKLAND ISLANDS (MALVINAS)',

@@ -1,4 +1,4 @@
-<?php return Sunaoka\AddressData\Address::__set_state(array(
+<?php return \Sunaoka\AddressData\Address::__set_state(array(
    'id' => 'data/BQ',
    'key' => 'BQ',
    'name' => 'BONAIRE, SINT EUSTATIUS, AND SABA',
