@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Sunaoka\AddressData\Builder\Tasks;
 
+use Brick\VarExporter\VarExporter;
 use Sunaoka\AddressData\Address;
 
 class Make
@@ -33,6 +34,6 @@ class Make
      */
     public static function serialize(string $filename, $data)
     {
-        return file_put_contents($filename, sprintf('<?php return %s;', var_export($data, true)));
+        return file_put_contents($filename, sprintf('<?php %s', VarExporter::export($data, VarExporter::INLINE_SCALAR_LIST | VarExporter::ADD_RETURN)));
     }
 }

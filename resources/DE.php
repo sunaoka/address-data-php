@@ -1,59 +1,28 @@
-<?php return \Sunaoka\AddressData\Address::__set_state(array(
-   'id' => 'data/DE',
-   'key' => 'DE',
-   'name' => 'GERMANY',
-   'lang' => NULL,
-   'languages' => 
-  array (
-  ),
-   'fmt' => '%N%n%O%n%A%n%Z %C',
-   'lfmt' => NULL,
-   'require' => 
-  array (
-    0 => 'A',
-    1 => 'C',
-    2 => 'Z',
-  ),
-   'upper' => 
-  array (
-  ),
-   'zip' => '\\d{5}',
-   'zipex' => 
-  array (
-    0 => '26133',
-    1 => '53225',
-  ),
-   'posturl' => 'http://www.postdirekt.de/plzserver/',
-   'postprefix' => NULL,
-   'zip_name_type' => NULL,
-   'state_name_type' => NULL,
-   'locality_name_type' => NULL,
-   'sublocality_name_type' => NULL,
-   'sub_keys' => 
-  array (
-  ),
-   'sub_names' => 
-  array (
-  ),
-   'sub_lnames' => 
-  array (
-  ),
-   'sub_zips' => 
-  array (
-  ),
-   'sub_zipexs' => 
-  array (
-  ),
-   'sub_isoids' => 
-  array (
-  ),
-   'sub_mores' => 
-  array (
-  ),
-   'sub_xzips' => 
-  array (
-  ),
-   'sub_xrequires' => 
-  array (
-  ),
-));
+<?php return \Sunaoka\AddressData\Address::__set_state([
+    'id' => 'data/DE',
+    'key' => 'DE',
+    'name' => 'GERMANY',
+    'lang' => null,
+    'languages' => [],
+    'fmt' => '%N%n%O%n%A%n%Z %C',
+    'lfmt' => null,
+    'require' => ['A', 'C', 'Z'],
+    'upper' => [],
+    'zip' => '\\d{5}',
+    'zipex' => ['26133', '53225'],
+    'posturl' => 'http://www.postdirekt.de/plzserver/',
+    'postprefix' => null,
+    'zip_name_type' => null,
+    'state_name_type' => null,
+    'locality_name_type' => null,
+    'sublocality_name_type' => null,
+    'sub_keys' => [],
+    'sub_names' => [],
+    'sub_lnames' => [],
+    'sub_zips' => [],
+    'sub_zipexs' => [],
+    'sub_isoids' => [],
+    'sub_mores' => [],
+    'sub_xzips' => [],
+    'sub_xrequires' => []
+]);

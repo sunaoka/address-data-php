@@ -1,62 +1,28 @@
-<?php return \Sunaoka\AddressData\Address::__set_state(array(
-   'id' => 'data/KN',
-   'key' => 'KN',
-   'name' => 'SAINT KITTS AND NEVIS',
-   'lang' => 'en',
-   'languages' => 
-  array (
-    0 => 'en',
-  ),
-   'fmt' => '%N%n%O%n%A%n%C, %S',
-   'lfmt' => NULL,
-   'require' => 
-  array (
-    0 => 'A',
-    1 => 'C',
-    2 => 'S',
-  ),
-   'upper' => 
-  array (
-  ),
-   'zip' => NULL,
-   'zipex' => 
-  array (
-  ),
-   'posturl' => NULL,
-   'postprefix' => NULL,
-   'zip_name_type' => NULL,
-   'state_name_type' => 'island',
-   'locality_name_type' => NULL,
-   'sublocality_name_type' => NULL,
-   'sub_keys' => 
-  array (
-    0 => 'Nevis',
-    1 => 'St. Kitts',
-  ),
-   'sub_names' => 
-  array (
-  ),
-   'sub_lnames' => 
-  array (
-  ),
-   'sub_zips' => 
-  array (
-  ),
-   'sub_zipexs' => 
-  array (
-  ),
-   'sub_isoids' => 
-  array (
-    0 => 'N',
-    1 => 'K',
-  ),
-   'sub_mores' => 
-  array (
-  ),
-   'sub_xzips' => 
-  array (
-  ),
-   'sub_xrequires' => 
-  array (
-  ),
-));
+<?php return \Sunaoka\AddressData\Address::__set_state([
+    'id' => 'data/KN',
+    'key' => 'KN',
+    'name' => 'SAINT KITTS AND NEVIS',
+    'lang' => 'en',
+    'languages' => ['en'],
+    'fmt' => '%N%n%O%n%A%n%C, %S',
+    'lfmt' => null,
+    'require' => ['A', 'C', 'S'],
+    'upper' => [],
+    'zip' => null,
+    'zipex' => [],
+    'posturl' => null,
+    'postprefix' => null,
+    'zip_name_type' => null,
+    'state_name_type' => 'island',
+    'locality_name_type' => null,
+    'sublocality_name_type' => null,
+    'sub_keys' => ['Nevis', 'St. Kitts'],
+    'sub_names' => [],
+    'sub_lnames' => [],
+    'sub_zips' => [],
+    'sub_zipexs' => [],
+    'sub_isoids' => ['N', 'K'],
+    'sub_mores' => [],
+    'sub_xzips' => [],
+    'sub_xrequires' => []
+]);

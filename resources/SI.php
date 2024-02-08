@@ -1,57 +1,28 @@
-<?php return \Sunaoka\AddressData\Address::__set_state(array(
-   'id' => 'data/SI',
-   'key' => 'SI',
-   'name' => 'SLOVENIA',
-   'lang' => NULL,
-   'languages' => 
-  array (
-  ),
-   'fmt' => '%N%n%O%n%A%nSI-%Z %C',
-   'lfmt' => NULL,
-   'require' => 
-  array (
-  ),
-   'upper' => 
-  array (
-  ),
-   'zip' => '\\d{4}',
-   'zipex' => 
-  array (
-    0 => '4000',
-    1 => '1001',
-    2 => '2500',
-  ),
-   'posturl' => NULL,
-   'postprefix' => 'SI-',
-   'zip_name_type' => NULL,
-   'state_name_type' => NULL,
-   'locality_name_type' => NULL,
-   'sublocality_name_type' => NULL,
-   'sub_keys' => 
-  array (
-  ),
-   'sub_names' => 
-  array (
-  ),
-   'sub_lnames' => 
-  array (
-  ),
-   'sub_zips' => 
-  array (
-  ),
-   'sub_zipexs' => 
-  array (
-  ),
-   'sub_isoids' => 
-  array (
-  ),
-   'sub_mores' => 
-  array (
-  ),
-   'sub_xzips' => 
-  array (
-  ),
-   'sub_xrequires' => 
-  array (
-  ),
-));
+<?php return \Sunaoka\AddressData\Address::__set_state([
+    'id' => 'data/SI',
+    'key' => 'SI',
+    'name' => 'SLOVENIA',
+    'lang' => null,
+    'languages' => [],
+    'fmt' => '%N%n%O%n%A%nSI-%Z %C',
+    'lfmt' => null,
+    'require' => [],
+    'upper' => [],
+    'zip' => '\\d{4}',
+    'zipex' => ['4000', '1001', '2500'],
+    'posturl' => null,
+    'postprefix' => 'SI-',
+    'zip_name_type' => null,
+    'state_name_type' => null,
+    'locality_name_type' => null,
+    'sublocality_name_type' => null,
+    'sub_keys' => [],
+    'sub_names' => [],
+    'sub_lnames' => [],
+    'sub_zips' => [],
+    'sub_zipexs' => [],
+    'sub_isoids' => [],
+    'sub_mores' => [],
+    'sub_xzips' => [],
+    'sub_xrequires' => []
+]);

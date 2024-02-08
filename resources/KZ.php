@@ -1,56 +1,28 @@
-<?php return \Sunaoka\AddressData\Address::__set_state(array(
-   'id' => 'data/KZ',
-   'key' => 'KZ',
-   'name' => 'KAZAKHSTAN',
-   'lang' => NULL,
-   'languages' => 
-  array (
-  ),
-   'fmt' => '%Z%n%S%n%C%n%A%n%O%n%N',
-   'lfmt' => NULL,
-   'require' => 
-  array (
-  ),
-   'upper' => 
-  array (
-  ),
-   'zip' => '\\d{6}',
-   'zipex' => 
-  array (
-    0 => '040900',
-    1 => '050012',
-  ),
-   'posturl' => NULL,
-   'postprefix' => NULL,
-   'zip_name_type' => NULL,
-   'state_name_type' => NULL,
-   'locality_name_type' => NULL,
-   'sublocality_name_type' => NULL,
-   'sub_keys' => 
-  array (
-  ),
-   'sub_names' => 
-  array (
-  ),
-   'sub_lnames' => 
-  array (
-  ),
-   'sub_zips' => 
-  array (
-  ),
-   'sub_zipexs' => 
-  array (
-  ),
-   'sub_isoids' => 
-  array (
-  ),
-   'sub_mores' => 
-  array (
-  ),
-   'sub_xzips' => 
-  array (
-  ),
-   'sub_xrequires' => 
-  array (
-  ),
-));
+<?php return \Sunaoka\AddressData\Address::__set_state([
+    'id' => 'data/KZ',
+    'key' => 'KZ',
+    'name' => 'KAZAKHSTAN',
+    'lang' => null,
+    'languages' => [],
+    'fmt' => '%Z%n%S%n%C%n%A%n%O%n%N',
+    'lfmt' => null,
+    'require' => [],
+    'upper' => [],
+    'zip' => '\\d{6}',
+    'zipex' => ['040900', '050012'],
+    'posturl' => null,
+    'postprefix' => null,
+    'zip_name_type' => null,
+    'state_name_type' => null,
+    'locality_name_type' => null,
+    'sublocality_name_type' => null,
+    'sub_keys' => [],
+    'sub_names' => [],
+    'sub_lnames' => [],
+    'sub_zips' => [],
+    'sub_zipexs' => [],
+    'sub_isoids' => [],
+    'sub_mores' => [],
+    'sub_xzips' => [],
+    'sub_xrequires' => []
+]);
