@@ -1,0 +1,22 @@
+parameters:
+
+    level: 9
+
+    checkMissingIterableValueType: true
+
+    checkGenericClassInNonGenericObjectType: true
+
+    checkMissingOverrideMethodAttribute: true
+
+    editorUrl: 'file://%%file%%:%%line%%'
+
+    editorUrlTitle: 'file://%%file%%:%%line%%'
+
+    paths:
+        - builder/
+        - src/
+        - tests/
+
+    excludePaths:
+
+    ignoreErrors:
