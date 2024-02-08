@@ -1,4 +1,4 @@
-<?php return Sunaoka\AddressData\Address::__set_state(array(
+<?php return \Sunaoka\AddressData\Address::__set_state(array(
    'id' => 'data/ST',
    'key' => 'ST',
    'name' => 'SAO TOME AND PRINCIPE',
