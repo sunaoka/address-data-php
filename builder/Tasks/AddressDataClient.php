@@ -4,8 +4,6 @@ declare(strict_types=1);
 
 namespace Sunaoka\AddressData\Builder\Tasks;
 
-use RuntimeException;
-
 class AddressDataClient
 {
     private const PUBLIC_ADDRESS_SERVER = 'https://chromium-i18n.appspot.com/ssl-address/data';
@@ -44,12 +42,12 @@ class AddressDataClient
             /** @var string|false $data */
             $data = curl_exec($ch);
             if ($data === false) {
-                throw new RuntimeException(curl_error($ch));
+                throw new \RuntimeException(curl_error($ch));
             }
 
             $statusCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
             if ($statusCode !== 200) {
-                throw new RuntimeException("HTTP status code: {$statusCode}");
+                throw new \RuntimeException("HTTP status code: {$statusCode}");
             }
 
             return $data;

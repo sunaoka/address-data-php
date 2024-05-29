@@ -38,10 +38,13 @@ $rules = [
     'concat_space'    => [
         'spacing' => 'one',
     ],
-    'declare_parentheses'                    => true,
-    'explicit_string_variable'               => true,
-    'fully_qualified_strict_types'           => true,
-    'general_phpdoc_tag_rename'              => true,
+    'declare_parentheses'          => true,
+    'explicit_string_variable'     => true,
+    'fully_qualified_strict_types' => true,
+    'general_phpdoc_tag_rename'    => true,
+    'global_namespace_import'      => [
+        'import_classes' => false,
+    ],
     'heredoc_to_nowdoc'                      => true,
     'integer_literal_case'                   => true,
     'linebreak_after_opening_tag'            => true,
@@ -101,11 +104,9 @@ $rules = [
     'not_operator_with_successor_space'                => true,
     'normalize_index_brace'                            => true,
     'nullable_type_declaration'                        => true,
-    'nullable_type_declaration_for_default_null_value' => [
-        'use_nullable_type_declaration' => false,
-    ],
-    'object_operator_without_whitespace' => true,
-    'ordered_imports'                    => [
+    'nullable_type_declaration_for_default_null_value' => true,
+    'object_operator_without_whitespace'               => true,
+    'ordered_imports'                                  => [
         'imports_order' => [
             'class',
             'const',
@@ -187,11 +188,12 @@ $rules = [
             'match',
         ],
     ],
-    'trim_array_spaces'       => true,
-    'type_declaration_spaces' => true,
-    'types_spaces'            => true,
-    'unary_operator_spaces'   => true,
-    'visibility_required'     => [
+    'ternary_to_null_coalescing' => true,
+    'trim_array_spaces'          => true,
+    'type_declaration_spaces'    => true,
+    'types_spaces'               => true,
+    'unary_operator_spaces'      => true,
+    'visibility_required'        => [
         'elements' => [
             'const',
             'method',
