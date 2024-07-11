@@ -216,7 +216,12 @@ class Address
     public static function fromJson(string $string, string $default): self
     {
         /** @var string $string */
-        $string = json_encode(array_merge((array)json_decode($default, true), (array)json_decode($string, true)));
+        $string = json_encode(
+            array_merge(
+                array_filter((array)json_decode($default, true)),
+                array_filter((array)json_decode($string, true))
+            )
+        );
 
         /** @var array<string, ?string> $attributes */
         $attributes = json_decode($string, true);
