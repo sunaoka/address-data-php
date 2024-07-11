@@ -41,7 +41,6 @@ jobs:
           composer install --quiet --no-ansi --prefer-dist --no-progress --no-interaction
 
       - name: Migrate phpunit XML configuration
-        continue-on-error: true
         run: vendor/bin/phpunit --migrate-configuration || true
 
       - name: Run test suite
