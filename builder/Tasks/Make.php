@@ -20,11 +20,16 @@ class Make
         return explode('~', $json['countries'] ?? '');
     }
 
-    public static function getAddress(string $country): Address
+    public static function getJson(string $country): string
     {
-        $string = AddressDataClient::json($country);
+        return AddressDataClient::json($country);
+    }
 
-        return Address::fromJson($string);
+    public static function getAddress(string $country, string $default): Address
+    {
+        $string = self::getJson($country);
+
+        return Address::fromJson($string, $default);
     }
 
     /**

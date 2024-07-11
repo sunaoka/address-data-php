@@ -213,18 +213,26 @@ class Address
         }
     }
 
-    public static function fromJson(string $string): Address
+    public static function fromJson(string $string, string $default): self
     {
-        /** @var string[] $attributes */
+        /** @var string $string */
+        $string = json_encode(
+            array_merge(
+                array_filter((array)json_decode($default, true)),
+                array_filter((array)json_decode($string, true))
+            )
+        );
+
+        /** @var array<string, ?string> $attributes */
         $attributes = json_decode($string, true);
 
         foreach ($attributes as $key => $value) {
             if (in_array($key, self::$tilde, true)) {
-                $attributes[$key] = explode('~', $value);
+                $attributes[$key] = explode('~', (string)$value);
             } elseif (in_array($key, self::$comma, true)) {
-                $attributes[$key] = explode(',', $value);
+                $attributes[$key] = explode(',', (string)$value);
             } elseif (in_array($key, self::$string, true)) {
-                $attributes[$key] = str_split($value);
+                $attributes[$key] = str_split((string)$value);
             }
         }
 

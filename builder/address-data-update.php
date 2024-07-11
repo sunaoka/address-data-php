@@ -14,10 +14,12 @@ require "{$root}/vendor/autoload.php";
 $countries = Make::getCountries();
 Make::serialize("{$root}/resources/__.php", $countries);
 
+$default = Make::getJson('ZZ');
+
 foreach ($countries as $country) {
     echo "Fetching {$country}...\n";
 
-    $data = Make::getAddress($country);
+    $data = Make::getAddress($country, $default);
 
     Make::serialize("{$root}/resources/{$country}.php", $data);
 }

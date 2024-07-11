@@ -4,8 +4,6 @@ declare(strict_types=1);
 
 namespace Sunaoka\AddressData\Builder\Tasks;
 
-use Closure;
-
 class Cache
 {
     private static function dir(): string
@@ -19,7 +17,7 @@ class Cache
         return file_exists(self::dir() . '/' . md5($key));
     }
 
-    public static function get(string $key, string $default = null): ?string
+    public static function get(string $key, ?string $default = null): ?string
     {
         if (static::has($key)) {
             return (string)file_get_contents(self::dir() . '/' . md5($key));
@@ -34,9 +32,9 @@ class Cache
     }
 
     /**
-     * @param Closure(): string $callback
+     * @param \Closure(): string $callback
      */
-    public static function remember(string $key, Closure $callback): string
+    public static function remember(string $key, \Closure $callback): string
     {
         $value = static::get($key);
         if ($value !== null) {
