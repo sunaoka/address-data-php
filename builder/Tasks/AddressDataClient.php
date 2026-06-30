@@ -53,7 +53,7 @@ class AddressDataClient
             return $data;
 
         } finally {
-            curl_close($ch);
+            unset($ch);
         }
     }
 }
