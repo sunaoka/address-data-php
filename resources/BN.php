@@ -10,7 +10,7 @@
     'upper' => ['C'],
     'zip' => '[A-Z]{2} ?\\d{4}',
     'zipex' => ['BT2328', 'KA1131', 'BA1511'],
-    'posturl' => 'http://www.post.gov.bn/SitePages/postcodes.aspx',
+    'posturl' => 'http://webapps.mtic.gov.bn/SitePages/Post/postcode.aspx',
     'postprefix' => null,
     'zip_name_type' => 'postal',
     'state_name_type' => 'province',

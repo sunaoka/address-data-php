@@ -10,7 +10,7 @@
     'upper' => ['C', 'X'],
     'zip' => '\\d{2} ?\\d{3}',
     'zipex' => ['33380', '34092', '33506'],
-    'posturl' => 'http://www.laposte.fr/Particulier/Utiliser-nos-outils-pratiques/Outils-et-documents/Trouvez-un-code-postal',
+    'posturl' => 'https://www.laposte.fr/outils/trouver-un-code-postal',
     'postprefix' => null,
     'zip_name_type' => 'postal',
     'state_name_type' => 'province',

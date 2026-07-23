@@ -10,7 +10,7 @@
     'upper' => ['C'],
     'zip' => '\\d{7}',
     'zipex' => ['8340457', '8720019', '1230000', '8329100'],
-    'posturl' => 'https://www.correos.cl/web/guest/codigo-postal',
+    'posturl' => null,
     'postprefix' => null,
     'zip_name_type' => 'postal',
     'state_name_type' => 'province',

@@ -10,7 +10,7 @@
     'upper' => ['C'],
     'zip' => 'LV-\\d{4}',
     'zipex' => ['LV-1073', 'LV-1000'],
-    'posturl' => 'http://www.pasts.lv/lv/uzzinas/nodalas/',
+    'posturl' => 'https://pasts.lv/lv/kategorija/pasta_nodalas/',
     'postprefix' => null,
     'zip_name_type' => 'postal',
     'state_name_type' => 'province',

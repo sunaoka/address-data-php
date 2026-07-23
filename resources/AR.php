@@ -8,7 +8,7 @@
     'lfmt' => null,
     'require' => ['A', 'C'],
     'upper' => ['A', 'C', 'Z'],
-    'zip' => '((?:[A-HJ-NP-Z])?\\d{4})([A-Z]{3})?',
+    'zip' => '[A-HJ-NP-Z]\\d{4}[A-Z]{3}',
     'zipex' => ['C1070AAM', 'C1000WAM', 'B1000TBU', 'X5187XAB'],
     'posturl' => 'http://www.correoargentino.com.ar/formularios/cpa',
     'postprefix' => null,

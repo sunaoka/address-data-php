@@ -10,7 +10,7 @@
     'upper' => ['C'],
     'zip' => '[1-9]\\d{3} ?(?:[A-RT-Z][A-Z]|S[BCE-RT-Z])',
     'zipex' => ['1234 AB', '2490 AA'],
-    'posturl' => 'http://www.postnl.nl/voorthuis/',
+    'posturl' => 'https://www.postnl.nl/en/find-a-postcode/',
     'postprefix' => null,
     'zip_name_type' => 'postal',
     'state_name_type' => 'province',

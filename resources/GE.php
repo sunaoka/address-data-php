@@ -10,7 +10,7 @@
     'upper' => ['C'],
     'zip' => '\\d{4}',
     'zipex' => ['0101'],
-    'posturl' => 'http://www.georgianpost.ge/index.php?page=10',
+    'posturl' => 'https://www.gpost.ge/help/postal-codes',
     'postprefix' => null,
     'zip_name_type' => 'postal',
     'state_name_type' => 'province',

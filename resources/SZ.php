@@ -10,7 +10,7 @@
     'upper' => ['A', 'C', 'Z'],
     'zip' => '[HLMS]\\d{3}',
     'zipex' => ['H100'],
-    'posturl' => 'http://www.sptc.co.sz/swazipost/codes/index.php',
+    'posturl' => 'https://www.eswatinipost.co.sz/postcode.php',
     'postprefix' => null,
     'zip_name_type' => 'postal',
     'state_name_type' => 'province',

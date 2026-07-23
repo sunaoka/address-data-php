@@ -10,7 +10,7 @@
     'upper' => ['A', 'C', 'N', 'O', 'S', 'Z'],
     'zip' => '[ABCEGHJKLMNPRSTVXY]\\d[ABCEGHJ-NPRSTV-Z] ?\\d[ABCEGHJ-NPRSTV-Z]\\d',
     'zipex' => ['H3Z 2Y7', 'V8X 3X4', 'T0L 1K0', 'T0H 1A0', 'K1A 0B1'],
-    'posturl' => 'https://www.canadapost.ca/cpo/mc/personal/postalcode/fpc.jsf',
+    'posturl' => 'https://www.canadapost-postescanada.ca/cpo/mc/personal/postalcode/fpc.jsf',
     'postprefix' => null,
     'zip_name_type' => 'postal',
     'state_name_type' => 'province',
