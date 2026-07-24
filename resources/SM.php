@@ -10,7 +10,7 @@
     'upper' => ['C'],
     'zip' => '4789\\d',
     'zipex' => ['47890', '47891', '47895', '47899'],
-    'posturl' => 'http://www.poste.it/online/cercacap/',
+    'posturl' => 'https://www.poste.it/cerca/index.html#/risultati-cerca-cap/',
     'postprefix' => null,
     'zip_name_type' => 'postal',
     'state_name_type' => 'province',

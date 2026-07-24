@@ -10,7 +10,7 @@
     'upper' => ['C'],
     'zip' => '\\d{4}',
     'zipex' => ['4000', '1000'],
-    'posturl' => 'http://www.post.be/site/nl/residential/customerservice/search/postal_codes.html',
+    'posturl' => 'https://www.bpost.be/nl/postcodevalidatie-tool',
     'postprefix' => null,
     'zip_name_type' => 'postal',
     'state_name_type' => 'province',

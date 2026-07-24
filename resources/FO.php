@@ -10,7 +10,7 @@
     'upper' => ['C'],
     'zip' => '\\d{3}',
     'zipex' => ['100'],
-    'posturl' => 'https://www.posta.fo/fo/forsida/finn-postnr-stad/',
+    'posturl' => 'https://posta.fo/en/private/send-receive/postcodes',
     'postprefix' => 'FO',
     'zip_name_type' => 'postal',
     'state_name_type' => 'province',

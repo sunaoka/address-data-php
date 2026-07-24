@@ -10,7 +10,7 @@
     'upper' => ['C'],
     'zip' => '\\d{5}',
     'zipex' => ['44601'],
-    'posturl' => 'http://www.gpo.gov.np/Home/Postalcode',
+    'posturl' => 'https://gpo.gov.np/pages/postal-code-1259614658/',
     'postprefix' => null,
     'zip_name_type' => 'postal',
     'state_name_type' => 'province',

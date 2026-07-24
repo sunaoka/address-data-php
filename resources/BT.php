@@ -10,7 +10,7 @@
     'upper' => ['C'],
     'zip' => '\\d{5}',
     'zipex' => ['11001', '31101', '35003'],
-    'posturl' => 'http://www.bhutanpost.bt/postcodes/',
+    'posturl' => 'https://bhutanpost.bt/postcode/',
     'postprefix' => null,
     'zip_name_type' => 'postal',
     'state_name_type' => 'province',

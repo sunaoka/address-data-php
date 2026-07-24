@@ -10,7 +10,7 @@
     'upper' => ['C'],
     'zip' => '\\d{3} ?\\d{2}',
     'zipex' => ['11455', '12345', '10500'],
-    'posturl' => 'https://www.postnord.se/online-verktyg/verktyg/sok/sok-postnummer-och-adress',
+    'posturl' => 'https://www.postnord.se/en/our-tools/search-postcode-and-address/',
     'postprefix' => 'SE-',
     'zip_name_type' => 'postal',
     'state_name_type' => 'province',

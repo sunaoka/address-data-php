@@ -10,7 +10,7 @@
     'upper' => ['C'],
     'zip' => 'VC\\d{4}',
     'zipex' => ['VC0100', 'VC0110', 'VC0400'],
-    'posturl' => 'http://www.svgpost.gov.vc/?option=com_content&view=article&id=3&Itemid=16',
+    'posturl' => null,
     'postprefix' => null,
     'zip_name_type' => 'postal',
     'state_name_type' => 'province',
