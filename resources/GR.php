@@ -10,7 +10,7 @@
     'upper' => ['C'],
     'zip' => '\\d{3} ?\\d{2}',
     'zipex' => ['151 24', '151 10', '101 88'],
-    'posturl' => 'http://www.elta.gr/findapostcode.aspx',
+    'posturl' => 'https://postalcodes.elta.gr',
     'postprefix' => null,
     'zip_name_type' => 'postal',
     'state_name_type' => 'province',

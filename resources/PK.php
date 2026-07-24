@@ -10,7 +10,7 @@
     'upper' => ['C'],
     'zip' => '\\d{5}',
     'zipex' => ['44000'],
-    'posturl' => 'http://www.pakpost.gov.pk/postcode.php',
+    'posturl' => 'http://www.pakpost.gov.pk/postcodes.php',
     'postprefix' => null,
     'zip_name_type' => 'postal',
     'state_name_type' => 'province',

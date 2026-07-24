@@ -10,7 +10,7 @@
     'upper' => ['C'],
     'zip' => '\\d{4}',
     'zipex' => ['0083', '1451', '0001'],
-    'posturl' => 'https://www.postoffice.co.za/Questions/postalcode.html',
+    'posturl' => null,
     'postprefix' => null,
     'zip_name_type' => 'postal',
     'state_name_type' => 'province',

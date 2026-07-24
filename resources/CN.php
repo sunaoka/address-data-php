@@ -10,7 +10,7 @@
     'upper' => ['S'],
     'zip' => '\\d{6}',
     'zipex' => ['266033', '317204', '100096', '100808'],
-    'posturl' => 'http://www.ems.com.cn/serviceguide/you_bian_cha_xun.html',
+    'posturl' => 'http://cpdc.chinapost.com.cn/web/',
     'postprefix' => null,
     'zip_name_type' => 'postal',
     'state_name_type' => 'province',
@@ -21,7 +21,7 @@
     'sub_lnames' => ['Anhui Sheng', 'Macau', 'Beijing Shi', 'Chongqing Shi', 'Fujian Sheng', 'Gansu Sheng', 'Guangdong Sheng', 'Guangxi Zhuangzuzizhiqu', 'Guizhou Sheng', 'Hainan Sheng', 'Hebei Sheng', 'Henan Sheng', 'Heilongjiang Sheng', 'Hubei Sheng', 'Hunan Sheng', 'Jilin Sheng', 'Jiangsu Sheng', 'Jiangxi Sheng', 'Liaoning Sheng', 'Neimenggu Zizhiqu', 'Ningxia Huizuzizhiqu', 'Qinghai Sheng', 'Shandong Sheng', 'Shanxi Sheng', 'Shaanxi Sheng', 'Shanghai Shi', 'Sichuan Sheng', 'Taiwan', 'Tianjin Shi', 'Xizang Zizhiqu', 'Hong Kong', 'Xinjiang Weiwuerzizhiqu', 'Yunnan Sheng', 'Zhejiang Sheng'],
     'sub_zips' => [],
     'sub_zipexs' => [],
-    'sub_isoids' => ['34', '92', '11', '50', '35', '62', '44', '45', '52', '46', '13', '41', '23', '42', '43', '22', '32', '36', '21', '15', '64', '63', '37', '14', '61', '31', '51', '71', '12', '54', '91', '65', '53', '33'],
+    'sub_isoids' => ['AH', 'MO', 'BJ', 'CQ', 'FJ', 'GS', 'GD', 'GX', 'GZ', 'HI', 'HE', 'HA', 'HL', 'HB', 'HN', 'JL', 'JS', 'JX', 'LN', 'NM', 'NX', 'QH', 'SD', 'SX', 'SN', 'SH', 'SC', 'TW', 'TJ', 'XZ', 'HK', 'XJ', 'YN', 'ZJ'],
     'sub_mores' => ['true', 'true', 'true', 'true', 'true', 'true', 'true', 'true', 'true', 'true', 'true', 'true', 'true', 'true', 'true', 'true', 'true', 'true', 'true', 'true', 'true', 'true', 'true', 'true', 'true', 'true', 'true', 'true', 'true', 'true', 'true', 'true', 'true', 'true'],
     'sub_xzips' => ['', '999078', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '\\d{3}(\\d{2,3})?', '', '', '999077', '', '', ''],
     'sub_xrequires' => ['', 'A', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'ACS', '', '', '']

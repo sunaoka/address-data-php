@@ -10,7 +10,7 @@
     'upper' => ['C'],
     'zip' => '\\d{4}',
     'zipex' => ['1340', '1000'],
-    'posturl' => 'https://bdpost.portal.gov.bd/site/page/f41a42bd-2540-4afa-8568-af56443c3df8/-',
+    'posturl' => 'https://ekdak.com/thikana/postcode/',
     'postprefix' => null,
     'zip_name_type' => 'postal',
     'state_name_type' => 'province',

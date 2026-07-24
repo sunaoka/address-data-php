@@ -10,7 +10,7 @@
     'upper' => ['C'],
     'zip' => '\\d{4}',
     'zipex' => ['4750', '2998'],
-    'posturl' => 'https://www.post.lu/fr/grandes-entreprises/solutions-postales/rechercher-un-code-postal',
+    'posturl' => 'https://www.post.lu/en/particuliers/colis-courrier/rechercher-un-code-postal',
     'postprefix' => 'L-',
     'zip_name_type' => 'postal',
     'state_name_type' => 'province',

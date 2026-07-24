@@ -10,7 +10,7 @@
     'upper' => ['C', 'S'],
     'zip' => '\\d{4}',
     'zipex' => ['1010', '3001', '8011', '1020'],
-    'posturl' => 'http://postcode.vnpost.vn/services/search.aspx',
+    'posturl' => null,
     'postprefix' => null,
     'zip_name_type' => 'postal',
     'state_name_type' => 'state',
