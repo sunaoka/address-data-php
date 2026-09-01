@@ -16,7 +16,7 @@ jobs:
           php-version: '8.5'
 
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Install dependencies
         uses: nick-fields/retry@v4
